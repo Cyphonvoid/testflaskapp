@@ -11,7 +11,7 @@ def api():
     return "Hello, API!"
 
 @app.route("/turtle")
-def api():
+def turtle():
     return "Hello, Turtle!"
 
 if __name__ == "__main__":
